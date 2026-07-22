@@ -15,7 +15,7 @@ export default function PricingSection(): React.JSX.Element {
           description="Select the package that fits your business needs."
           plans={[
             {
-              tag: "Standard",
+              tag: "Basic",
               price: "$399",
               period: "one-time",
               description: "Perfect for new businesses looking for a professional start.",
