@@ -21,7 +21,7 @@ export default function HeroSection(): React.JSX.Element {
             text: "Contact Us",
             href: "#contact",
           }}
-          imageSrc="http://img.b2bpic.net/free-photo/technology-circle-blue-background-digital-transformation-concept_53876-124682.jpg"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3GsBzzqoDGM48oN0RurwGc0p373/tmp/creations-1784762894385-ade04dad.png"
           textAnimation="fade-blur"
         />
         </SectionErrorBoundary>
