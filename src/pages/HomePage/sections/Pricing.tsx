@@ -33,7 +33,7 @@ export default function PricingSection(): React.JSX.Element {
               ],
             },
             {
-              tag: "Popular",
+              tag: "Starter",
               price: "$599",
               period: "one-time",
               description: "Everything needed to scale and attract more customers.",
