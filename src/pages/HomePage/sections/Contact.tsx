@@ -14,7 +14,7 @@ export default function ContactSection(): React.JSX.Element {
           text="Let’s build your digital presence together."
           primaryButton={{
             text: "Contact Us Now",
-            href: "mailto:hello@creatorstudios.com",
+            href: "mailto:creator@studios.us",
           }}
           secondaryButton={{
             text: "Learn More",
