@@ -21,7 +21,7 @@ export default function PricingSection(): React.JSX.Element {
               description: "Perfect for new businesses looking for a professional start.",
               primaryButton: {
                 text: "Choose Basic",
-                href: "https://your-store.myshopify.com/cart",
+                href: "https://shopify.com/82072305877/account",
               },
               featuresTitle: "Basic Essentials",
               features: [
@@ -39,7 +39,7 @@ export default function PricingSection(): React.JSX.Element {
               description: "Everything needed to scale and attract more customers.",
               primaryButton: {
                 text: "Choose Starter",
-                href: "https://your-store.myshopify.com/cart",
+                href: "https://shopify.com/82072305877/account",
               },
               featuresTitle: "Starter Suite",
               features: [
@@ -57,7 +57,7 @@ export default function PricingSection(): React.JSX.Element {
               description: "Comprehensive features for high-performing brands.",
               primaryButton: {
                 text: "Choose Premium",
-                href: "https://your-store.myshopify.com/cart",
+                href: "https://shopify.com/82072305877/account",
               },
               featuresTitle: "Premium Power",
               features: [
