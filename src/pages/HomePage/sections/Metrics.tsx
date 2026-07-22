@@ -10,33 +10,12 @@ export default function MetricsSection(): React.JSX.Element {
     <div id="metrics" data-section="metrics">
         <SectionErrorBoundary name="metrics">
               <MetricsSimpleCards
-          tag="OUR REACH"
-          title="Proven results"
-          description="Driving performance with precision."
-          metrics={[
-            {
-              value: "150+",
-              description: "Projects Completed",
-            },
-            {
-              value: "98%",
-              description: "Client Satisfaction",
-            },
-            {
-              value: "24/7",
-              description: "Support Ready",
-            },
-            {
-              value: "50+",
-              description: "Global Clients",
-            },
-            {
-              value: "4.9/5",
-              description: "Average Rating",
-            },
-          ]}
-          textAnimation="slide-up"
-        />
+        tag="OUR REACH"
+        title="Proven results"
+        description="Driving performance with precision."
+        metrics={[{"value":"150+","description":"Projects Completed"},{"value":"24/7","description":"Support Ready"}]}
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );
