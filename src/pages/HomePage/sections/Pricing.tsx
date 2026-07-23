@@ -8,8 +8,8 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 const plans = [
   {
     tag: "Basic",
-    price: "$99",
-    period: "/month",
+    price: "$499",
+    period: "one-time",
     description: "Perfect for new businesses looking for a professional start. All sales are final after sale. Includes 350 credits per month.",
     primaryButton: {
       text: "Choose Basic",
@@ -17,30 +17,35 @@ const plans = [
     },
     featuresTitle: "Basic Essentials",
     features: [
-      "Security",
-      "Backups",
-      "Small edits"
+      "Up to 3 Pages",
+      "Mobile Friendly",
+      "Contact Form",
+      "Basic SEO",
+      "Fast Loading"
     ]
   },
   {
-    tag: "Standard",
-    price: "$199",
-    period: "/month",
+    tag: "Starter",
+    price: "$699",
+    period: "one-time",
     description: "Everything needed to scale and attract more customers. All sales are final after 14 days.",
     primaryButton: {
-      text: "Choose Standard",
+      text: "Choose Starter",
       href: "https://creator-studios-2963.myshopify.com/products/popular?pr_prod_strat=collection_fallback&pr_rec_id=c2c2faced&pr_rec_pid=9496710774997&pr_ref_pid=9496676761813&pr_seq=uniform"
     },
-    featuresTitle: "Standard Suite",
+    featuresTitle: "Starter Suite",
     features: [
-      "Everything in Basic",
-      "2 hours of content changes"
+      "Up to 7 Pages",
+      "Advanced SEO",
+      "Booking System",
+      "Image Gallery",
+      "Priority Support"
     ]
   },
   {
     tag: "Premium",
-    price: "$399",
-    period: "/month",
+    price: "$899",
+    period: "one-time",
     description: "Comprehensive features for high-performing brands. All sales are final after 30 days.",
     primaryButton: {
       text: "Choose Premium",
@@ -107,7 +112,7 @@ const PricingInline = () => (
             key={plan.tag}
             className="relative flex flex-col md:flex-row gap-5 md:gap-12 p-5 md:p-12 card rounded"
           >
-            {plan.tag === "Standard" && (
+            {plan.tag === "Starter" && (
               <div className="absolute top-4 right-4 md:top-8 md:right-8 px-3 py-1 text-xs md:text-sm font-medium primary-button rounded">
                 Most Popular
               </div>
