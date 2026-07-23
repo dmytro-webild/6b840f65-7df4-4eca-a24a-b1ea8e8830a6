@@ -8,7 +8,7 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 const plans = [
   {
     tag: "Basic",
-    price: "$399",
+    price: "$499",
     period: "one-time",
     description: "Perfect for new businesses looking for a professional start.",
     primaryButton: {
@@ -26,7 +26,7 @@ const plans = [
   },
   {
     tag: "Starter",
-    price: "$599",
+    price: "$699",
     period: "one-time",
     description: "Everything needed to scale and attract more customers.",
     primaryButton: {
