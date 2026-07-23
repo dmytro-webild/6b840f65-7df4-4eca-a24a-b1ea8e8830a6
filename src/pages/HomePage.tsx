@@ -12,7 +12,6 @@ import TestimonialsSection from './HomePage/sections/Testimonials';
 import MetricsSection from './HomePage/sections/Metrics';
 import FaqSection from './HomePage/sections/Faq';
 import ContactSection from './HomePage/sections/Contact';
-import PlanVisualsSection from './HomePage/sections/PlanVisuals';
 
 export default function HomePage(): React.JSX.Element {
   return (
@@ -23,7 +22,6 @@ export default function HomePage(): React.JSX.Element {
       <TestimonialsSection />
       <FaqSection />
       <MetricsSection />
-      <PlanVisualsSection />
       <ContactSection />
     </>
   );
