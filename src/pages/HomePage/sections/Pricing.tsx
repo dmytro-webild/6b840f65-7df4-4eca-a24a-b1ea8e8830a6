@@ -7,57 +7,51 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 
 const plans = [
   {
-    tag: "Basic",
-    price: "$499",
-    period: "one-time",
-    description: "Perfect for new businesses looking for a professional start. All sales are final after sale.",
+    tag: "White",
+    price: "$99",
+    period: "/month",
+    description: "Includes security backups and small edits.",
     primaryButton: {
-      text: "Choose Basic",
+      text: "Choose White",
       href: "https://creator-studios-2963.myshopify.com/products/standard?pr_prod_strat=collection_fallback&pr_rec_id=5fb631241&pr_rec_pid=9496676761813&pr_ref_pid=9496710774997&pr_seq=uniform"
     },
-    featuresTitle: "Basic Essentials",
+    featuresTitle: "White Essentials",
     features: [
-      "Up to 3 Pages",
-      "Mobile Friendly",
-      "Contact Form",
-      "Basic SEO",
-      "Fast Loading"
+      "Security backups",
+      "Small edits"
     ]
   },
   {
-    tag: "Starter",
-    price: "$699",
-    period: "one-time",
-    description: "Everything needed to scale and attract more customers. All sales are final after 14 days.",
+    tag: "Grey",
+    price: "$199",
+    period: "/month",
+    description: "Everything in basic plus up to 2 hours of content changes.",
     primaryButton: {
-      text: "Choose Starter",
+      text: "Choose Grey",
       href: "https://creator-studios-2963.myshopify.com/products/popular?pr_prod_strat=collection_fallback&pr_rec_id=c2c2faced&pr_rec_pid=9496710774997&pr_ref_pid=9496676761813&pr_seq=uniform"
     },
-    featuresTitle: "Starter Suite",
+    featuresTitle: "Grey Suite",
     features: [
-      "Up to 7 Pages",
-      "Advanced SEO",
-      "Booking System",
-      "Image Gallery",
-      "Priority Support"
+      "Security backups",
+      "Small edits",
+      "Up to 2 hours of content changes"
     ]
   },
   {
     tag: "Premium",
-    price: "$899",
-    period: "one-time",
-    description: "Comprehensive features for high-performing brands. All sales are final after 30 days.",
+    price: "$399",
+    period: "/month",
+    description: "Priority support, unlimited small edits, SEO impairments analytics report and more.",
     primaryButton: {
       text: "Choose Premium",
       href: "https://creator-studios-2963.myshopify.com/products/premium-1?pr_prod_strat=collection_fallback&pr_rec_id=c2c2faced&pr_rec_pid=9496710807765&pr_ref_pid=9496676761813&pr_seq=uniform"
     },
     featuresTitle: "Premium Power",
     features: [
-      "Up to 12 Pages",
-      "Custom Animations",
-      "E-commerce Ready",
-      "Blog Setup",
-      "30 Days Support"
+      "Priority support",
+      "Unlimited small edits",
+      "SEO impairments analytics report",
+      "And more"
     ]
   }
 ];
