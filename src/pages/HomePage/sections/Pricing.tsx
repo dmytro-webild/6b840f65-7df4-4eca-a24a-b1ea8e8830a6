@@ -10,7 +10,7 @@ const plans = [
     tag: "Basic",
     price: "$499",
     period: "one-time",
-    description: "Perfect for new businesses looking for a professional start. All sales are final after sale. Includes 350 credits per month.",
+    description: "Perfect for new businesses looking for a professional start. All sales are final after sale.",
     primaryButton: {
       text: "Choose Basic",
       href: "https://creator-studios-2963.myshopify.com/products/standard?pr_prod_strat=collection_fallback&pr_rec_id=5fb631241&pr_rec_pid=9496676761813&pr_ref_pid=9496710774997&pr_seq=uniform"
