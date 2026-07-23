@@ -148,50 +148,62 @@ const PricingInline = () => (
       </div>
 
       <div className="flex flex-col gap-5 w-content-width mx-auto">
-        {plans.map((plan) => (
-          <ScrollReveal
-            variant="slide-up"
-            key={plan.tag}
-            className="relative flex flex-col md:flex-row gap-5 md:gap-12 p-5 md:p-12 card rounded"
-          >
-            {plan.tag === "Starter" && (
-              <div className="absolute top-4 right-4 md:top-8 md:right-8 px-3 py-1 text-xs md:text-sm font-medium primary-button rounded">
-                Most Popular
+        {plans.map((plan, index) => (
+          <React.Fragment key={`${plan.tag}-${index}`}>
+            {plan.price === "$99" && (
+              <div className="flex flex-col items-center gap-2 mt-10 mb-2">
+                <TextAnimation
+                  text="After Care Plan"
+                  variant="slide-up"
+                  gradientText={true}
+                  tag="h3"
+                  className="text-4xl md:text-5xl font-semibold text-center text-balance"
+                />
               </div>
             )}
-            <div className="flex flex-col gap-2 justify-between w-full md:w-1/2">
-              <div className="flex flex-col gap-2">
-                <div className="px-3 py-1 mb-2 w-fit text-sm card rounded">
-                  <p>{plan.tag}</p>
+            <ScrollReveal
+              variant="slide-up"
+              className="relative flex flex-col md:flex-row gap-5 md:gap-12 p-5 md:p-12 card rounded"
+            >
+              {plan.tag === "Starter" && (
+                <div className="absolute top-4 right-4 md:top-8 md:right-8 px-3 py-1 text-xs md:text-sm font-medium primary-button rounded">
+                  Most Popular
                 </div>
-                <div className="flex items-baseline gap-1">
-                  <span className="text-5xl md:text-6xl font-semibold">{plan.price}</span>
-                  <span className="text-2xl font-medium">{plan.period}</span>
-                </div>
-                <p className="text-xl md:text-2xl leading-snug text-balance">{plan.description}</p>
-              </div>
-
-              <div className="flex flex-col gap-3">
-                <Button text={plan.primaryButton.text} href={plan.primaryButton.href} variant="primary" className="w-full" />
-                {plan.secondaryButton && <Button text={plan.secondaryButton.text} href={plan.secondaryButton.href} variant="secondary" className="w-full" />}
-              </div>
-            </div>
-
-            <div className="w-full h-px bg-foreground/20 md:hidden" />
-
-            <div className="flex flex-col gap-3 w-full md:w-1/2">
-              <h3 className="text-xl font-medium truncate">{plan.featuresTitle}</h3>
-              <div className="w-full h-px bg-foreground/5" />
-              {plan.features.map((feature) => (
-                <div key={feature} className="flex items-start gap-3">
-                  <div className="flex items-center justify-center shrink-0 size-6 primary-button rounded">
-                    <Check className="size-3 text-primary-cta-text" strokeWidth={2} />
+              )}
+              <div className="flex flex-col gap-2 justify-between w-full md:w-1/2">
+                <div className="flex flex-col gap-2">
+                  <div className="px-3 py-1 mb-2 w-fit text-sm card rounded">
+                    <p>{plan.tag}</p>
                   </div>
-                  <span className="text-base leading-snug">{feature}</span>
+                  <div className="flex items-baseline gap-1">
+                    <span className="text-5xl md:text-6xl font-semibold">{plan.price}</span>
+                    <span className="text-2xl font-medium">{plan.period}</span>
+                  </div>
+                  <p className="text-xl md:text-2xl leading-snug text-balance">{plan.description}</p>
                 </div>
-              ))}
-            </div>
-          </ScrollReveal>
+
+                <div className="flex flex-col gap-3">
+                  <Button text={plan.primaryButton.text} href={plan.primaryButton.href} variant="primary" className="w-full" />
+                  {plan.secondaryButton && <Button text={plan.secondaryButton.text} href={plan.secondaryButton.href} variant="secondary" className="w-full" />}
+                </div>
+              </div>
+
+              <div className="w-full h-px bg-foreground/20 md:hidden" />
+
+              <div className="flex flex-col gap-3 w-full md:w-1/2">
+                <h3 className="text-xl font-medium truncate">{plan.featuresTitle}</h3>
+                <div className="w-full h-px bg-foreground/5" />
+                {plan.features.map((feature) => (
+                  <div key={feature} className="flex items-start gap-3">
+                    <div className="flex items-center justify-center shrink-0 size-6 primary-button rounded">
+                      <Check className="size-3 text-primary-cta-text" strokeWidth={2} />
+                    </div>
+                    <span className="text-base leading-snug">{feature}</span>
+                  </div>
+                ))}
+              </div>
+            </ScrollReveal>
+          </React.Fragment>
         ))}
       </div>
     </div>
