@@ -12,25 +12,19 @@ import TestimonialsSection from './HomePage/sections/Testimonials';
 import MetricsSection from './HomePage/sections/Metrics';
 import FaqSection from './HomePage/sections/Faq';
 import ContactSection from './HomePage/sections/Contact';
+import PlanVisualsSection from './HomePage/sections/PlanVisuals';
 
-
-import PlanVisualsSection from './HomePage/sections/PlanVisuals';export default function HomePage(): React.JSX.Element {
+export default function HomePage(): React.JSX.Element {
   return (
-<>
-  <HeroSection />
-
-  <AboutSection />
-
-  <PricingSection />
-
-  <TestimonialsSection />
-
-  <MetricsSection />
+    <>
+      <HeroSection />
+      <AboutSection />
+      <PricingSection />
+      <TestimonialsSection />
+      <FaqSection />
+      <MetricsSection />
       <PlanVisualsSection />
-
-  <FaqSection />
-
-  <ContactSection />
+      <ContactSection />
     </>
   );
 }
