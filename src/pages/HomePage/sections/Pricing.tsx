@@ -13,7 +13,7 @@ const plans = [
     description: "Perfect for new businesses looking for a professional start.",
     primaryButton: {
       text: "Choose Basic",
-      href: "https://shopify.com/82072305877/account"
+      href: "https://creator-studios-2963.myshopify.com/products/standard?pr_prod_strat=collection_fallback&pr_rec_id=5fb631241&pr_rec_pid=9496676761813&pr_ref_pid=9496710774997&pr_seq=uniform"
     },
     featuresTitle: "Basic Essentials",
     features: [
@@ -31,7 +31,7 @@ const plans = [
     description: "Everything needed to scale and attract more customers.",
     primaryButton: {
       text: "Choose Starter",
-      href: "https://shopify.com/82072305877/account"
+      href: "https://creator-studios-2963.myshopify.com/products/popular?pr_prod_strat=collection_fallback&pr_rec_id=c2c2faced&pr_rec_pid=9496710774997&pr_ref_pid=9496676761813&pr_seq=uniform"
     },
     featuresTitle: "Starter Suite",
     features: [
@@ -49,7 +49,7 @@ const plans = [
     description: "Comprehensive features for high-performing brands.",
     primaryButton: {
       text: "Choose Premium",
-      href: "https://shopify.com/82072305877/account"
+      href: "https://creator-studios-2963.myshopify.com/products/premium-1?pr_prod_strat=collection_fallback&pr_rec_id=c2c2faced&pr_rec_pid=9496710807765&pr_ref_pid=9496676761813&pr_seq=uniform"
     },
     featuresTitle: "Premium Power",
     features: [
