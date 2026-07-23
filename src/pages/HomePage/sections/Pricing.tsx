@@ -10,7 +10,7 @@ const plans = [
     tag: "Basic",
     price: "$499",
     period: "one-time",
-    description: "Perfect for new businesses looking for a professional start.",
+    description: "Perfect for new businesses looking for a professional start. All sales are final after sale. Includes 350 credits per month.",
     primaryButton: {
       text: "Choose Basic",
       href: "https://creator-studios-2963.myshopify.com/products/standard?pr_prod_strat=collection_fallback&pr_rec_id=5fb631241&pr_rec_pid=9496676761813&pr_ref_pid=9496710774997&pr_seq=uniform"
@@ -28,7 +28,7 @@ const plans = [
     tag: "Starter",
     price: "$699",
     period: "one-time",
-    description: "Everything needed to scale and attract more customers.",
+    description: "Everything needed to scale and attract more customers. All sales are final after 14 days.",
     primaryButton: {
       text: "Choose Starter",
       href: "https://creator-studios-2963.myshopify.com/products/popular?pr_prod_strat=collection_fallback&pr_rec_id=c2c2faced&pr_rec_pid=9496710774997&pr_ref_pid=9496676761813&pr_seq=uniform"
@@ -46,7 +46,7 @@ const plans = [
     tag: "Premium",
     price: "$899",
     period: "one-time",
-    description: "Comprehensive features for high-performing brands.",
+    description: "Comprehensive features for high-performing brands. All sales are final after 30 days.",
     primaryButton: {
       text: "Choose Premium",
       href: "https://creator-studios-2963.myshopify.com/products/premium-1?pr_prod_strat=collection_fallback&pr_rec_id=c2c2faced&pr_rec_pid=9496710807765&pr_ref_pid=9496676761813&pr_seq=uniform"
