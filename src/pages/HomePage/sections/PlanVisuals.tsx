@@ -43,8 +43,8 @@ export default function PlanVisualsSection() {
   ];
 
   return (
-    <div data-webild-section="plan-visuals" id="plan-visuals" className="py-20 bg-background">
-      <div className="flex flex-col gap-10 w-content-width mx-auto">
+    <div data-webild-section="plan-visuals" id="plan-visuals" className="bg-background">
+      <div className="flex flex-col w-content-width mx-auto">
         <div className="flex flex-col items-center gap-4">
           <div className="px-3 py-1 text-sm card rounded w-fit">
             <p>PLAN OVERVIEW</p>
@@ -52,14 +52,16 @@ export default function PlanVisualsSection() {
           <TextAnimation
             text="Choose your path"
             variant="slide-up"
+            gradientText={false}
             tag="h2"
             className="text-4xl md:text-5xl font-semibold text-center text-foreground"
           />
           <TextAnimation
             text="A quick look at our Basic, Starter, and Premium plans."
             variant="slide-up"
+            gradientText={false}
             tag="p"
-            className="text-lg text-accent text-center max-w-2xl"
+            className="text-lg text-accent text-center max-w-content-width"
           />
         </div>
 
