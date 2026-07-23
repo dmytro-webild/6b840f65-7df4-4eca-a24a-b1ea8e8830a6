@@ -7,6 +7,53 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 
 const plans = [
   {
+    tag: "Basic",
+    price: "$499",
+    period: "",
+    description: "All sales are final after sale.",
+    primaryButton: {
+      text: "Choose Basic",
+      href: "#"
+    },
+    featuresTitle: "Basic Features",
+    features: [
+      "Core features",
+      "Standard support"
+    ]
+  },
+  {
+    tag: "Starter",
+    price: "$699",
+    period: "",
+    description: "Perfect for growing businesses.",
+    primaryButton: {
+      text: "Choose Starter",
+      href: "#"
+    },
+    featuresTitle: "Starter Features",
+    features: [
+      "Core features",
+      "Standard support",
+      "Advanced analytics"
+    ]
+  },
+  {
+    tag: "Popular",
+    price: "$999",
+    period: "",
+    description: "Our most popular comprehensive plan.",
+    primaryButton: {
+      text: "Choose Popular",
+      href: "#"
+    },
+    featuresTitle: "Popular Features",
+    features: [
+      "All Starter features",
+      "Priority support",
+      "Custom integrations"
+    ]
+  },
+  {
     tag: "White",
     price: "$99",
     period: "/month",
