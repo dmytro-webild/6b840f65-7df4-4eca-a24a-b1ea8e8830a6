@@ -14,7 +14,7 @@ const plans = [
     description: "All sales are final after sale.",
     primaryButton: {
       text: "Choose Basic",
-      href: "#"
+      href: "https://buy.stripe.com/9B6fZi5U17GX7yFctF8Vi03"
     },
     featuresTitle: "Basic Features",
     features: [
@@ -29,7 +29,7 @@ const plans = [
     description: "Perfect for growing businesses.",
     primaryButton: {
       text: "Choose Starter",
-      href: "#"
+      href: "https://buy.stripe.com/28E14o4PXf9pf17gJV8Vi02"
     },
     featuresTitle: "Starter Features",
     features: [
@@ -45,7 +45,7 @@ const plans = [
     description: "Our most popular comprehensive plan.",
     primaryButton: {
       text: "Choose Premium",
-      href: "#"
+      href: "https://buy.stripe.com/7sY28s3LT0ev3ip0KX8Vi01"
     },
     featuresTitle: "Premium Features",
     features: [
@@ -61,7 +61,7 @@ const plans = [
     description: "Includes security backups and small edits.",
     primaryButton: {
       text: "Choose White",
-      href: "https://creator-studios-2963.myshopify.com/products/standard?pr_prod_strat=collection_fallback&pr_rec_id=5fb631241&pr_rec_pid=9496676761813&pr_ref_pid=9496710774997&pr_seq=uniform"
+      href: "https://buy.stripe.com/bJe3cw4PX8L1bOV65h8Vi04"
     },
     featuresTitle: "White Essentials",
     features: [
@@ -76,7 +76,7 @@ const plans = [
     description: "Everything in basic plus up to 2 hours of content changes.",
     primaryButton: {
       text: "Choose Grey",
-      href: "https://creator-studios-2963.myshopify.com/products/popular?pr_prod_strat=collection_fallback&pr_rec_id=c2c2faced&pr_rec_pid=9496710774997&pr_ref_pid=9496676761813&pr_seq=uniform"
+      href: "https://buy.stripe.com/8x228s1DL9P5f17bpB8Vi05"
     },
     featuresTitle: "Grey Suite",
     features: [
@@ -92,7 +92,7 @@ const plans = [
     description: "Priority support, unlimited small edits, SEO impairments analytics report and more.",
     primaryButton: {
       text: "Choose Premium",
-      href: "https://creator-studios-2963.myshopify.com/products/premium-1?pr_prod_strat=collection_fallback&pr_rec_id=c2c2faced&pr_rec_pid=9496710807765&pr_ref_pid=9496676761813&pr_seq=uniform"
+      href: "https://buy.stripe.com/dRm4gA96d3qH8CJalx8Vi06"
     },
     featuresTitle: "Premium Power",
     features: [
