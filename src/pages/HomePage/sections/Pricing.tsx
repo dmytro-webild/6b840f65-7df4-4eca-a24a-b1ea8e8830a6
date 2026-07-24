@@ -11,47 +11,53 @@ const plans = [
     tag: "Basic",
     price: "$499",
     period: "",
-    description: "All sales are final after sale.",
+    description: "Essential tools to get started. All sales are final.",
     primaryButton: {
       text: "Choose Basic",
       href: "https://buy.stripe.com/9B6fZi5U17GX7yFctF8Vi03"
     },
     featuresTitle: "Basic Features",
     features: [
-      "Core features",
-      "Standard support"
+      "Standard template design",
+      "Basic SEO setup",
+      "Mobile responsive",
+      "Email support"
     ]
   },
   {
     tag: "Starter",
     price: "$699",
     period: "",
-    description: "Perfect for growing businesses.",
+    description: "Our most popular plan for explosive growth. Sales are final after 14 days.",
     primaryButton: {
       text: "Choose Starter",
       href: "https://buy.stripe.com/28E14o4PXf9pf17gJV8Vi02"
     },
     featuresTitle: "Starter Features",
     features: [
-      "Core features",
-      "Standard support",
-      "Advanced analytics"
+      "Custom tailored design",
+      "Advanced SEO optimization",
+      "High-converting landing pages",
+      "Priority 24/7 support",
+      "Performance analytics dashboard"
     ]
   },
   {
     tag: "Premium",
     price: "$899",
     period: "",
-    description: "Our most popular comprehensive plan.",
+    description: "The ultimate package for industry leaders. Sales are final after 30 days.",
     primaryButton: {
       text: "Choose Premium",
       href: "https://buy.stripe.com/7sY28s3LT0ev3ip0KX8Vi01"
     },
     featuresTitle: "Premium Features",
     features: [
-      "All Starter features",
-      "Priority support",
-      "Custom integrations"
+      "Everything in Starter",
+      "Bespoke interactive animations",
+      "E-commerce integration",
+      "Dedicated account manager",
+      "Quarterly strategy reviews"
     ]
   },
   {
